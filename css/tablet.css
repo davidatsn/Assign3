@@ -1,0 +1,36 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    margin-right: 1rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .hope {
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sh {
+    font-size: 10px;
+  }
+  .raz {
+    font-size: 10px;
+    padding: 10px 4px !important;
+  }
+  .raz span {
+    padding: 5px !important;
+  }
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+}

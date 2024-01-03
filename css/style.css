@@ -1,0 +1,298 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #1d3557;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 100%;
+  margin: 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+#nav-bar a:link,
+a:visited {
+  text-decoration: none;
+  padding: 60px 20px 32px;
+  border-left: 2px solid #ced4da;
+}
+#nav-bar a:hover,
+a:active {
+  background-color: orange;
+}
+.image-banner {
+}
+.banner-title {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 42%;
+  color: white;
+}
+.container {
+  padding: 0 50px;
+}
+.text-nav {
+  display: inline-block;
+
+  padding: 24.922px 20px 30px;
+
+  border-left: 2px solid #ced4da;
+}
+#target {
+  background-color:#f1f3f5;
+  padding: 15px;
+}
+#personal-info {
+  background-color:#e9ecef;
+  padding: 15px;
+}
+.hope {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mt-40 {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 35px;
+  display: none;
+}
+.section-title {
+  margin-bottom: 36px;
+}
+
+.job-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 20px;
+}
+i {
+  font-size: 36px;
+}
+.job-content {
+  grid-column: 1/3;
+  padding: 20px;
+  height: 700px;
+  margin: 20px;
+  display: none;
+}
+.job-title {
+  font-size: 19px;
+  margin-left: 20px;
+}
+.ke {
+  margin-top: 36px;
+}
+.bgi {
+  background-color: #0abde3;
+  text-align: center;
+  border-radius: 4px;
+  color: #dff1df;
+  font-style: oblique;
+  padding: 4px 8px;
+}
+.bgf {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #339af0;
+  padding: 11px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.dfg {
+  border: 2px solid#ced4da;
+  display: grid;
+  gap: 10px 20px;
+  grid-template-columns: 75% 25%;
+  align-items: center;
+  padding: 24px;
+}
+
+.view-more,
+.less-more {
+  display: none;
+}
+.blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  font-size: 6px;
+}
+.grey {
+  background: #adb5bd;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  font-size: 6px;
+}
+.bijan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 30px;
+}
+.bla {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+  padding: 0 20px;
+  gap: 20px;
+}
+.flexb {
+  display: flex;
+  padding: 0 20px;
+  gap: 20px;
+  border-left: 2px solid#ffa94d;
+}
+.gh {
+  padding-right: 30px;
+}
+.flexd {
+  display: flex;
+  padding: 35px 20px;
+  grid-column: 1/3;
+  border-top: 2px solid #ffa94d;
+}
+.x {
+  font-size: 15px;
+  color: #199cdb;
+}
+.jgh {
+  margin-top: 30px;
+}
+.h {
+  font-size: 20px;
+  color: #339af0;
+}
+.g {
+  display: inline-block;
+}
+.hf {
+  display: inline-block;
+}
+#footer {
+  line-height: 1.5;
+  text-align: center;
+}
+#footer a:link,
+a:visited {
+  font-size: 20px;
+  margin-right: 50px;
+  color: #199cdb;
+  font-weight: bold;
+  height: 30px;
+}
+#footer a:hover,
+a:active {
+  color: red;
+  font-size: 30px;
+}
+.bfjan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.sh {
+  text-transform: uppercase;
+  border: 2px solid #ced4da;
+  height: 60px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+}
+.botton {
+  background-color: #199cdb;
+  border-radius: 9px;
+  width: 40px;
+}
+.bgih {
+  background-color: #339af0;
+  border-radius: 10px;
+  color: white;
+  font-style: oblique;
+  padding: 3px;
+  font-size: 19px;
+}
+.A {
+  font-size: 20px;
+  margin-left: 15px;
+}
+.raz {
+  border-left: 2px solid #ced4da;
+  border-right: 2px solid #ced4da;
+  height: 60px;
+  padding: 20px;
+}
+table {
+  border-left: 2px solid #ced4da;
+  border-right: 2px solid #ced4da;
+  border-bottom:2px solid #ced4da;
+
+}
+td {
+  padding: 10px;
+}
+tr td:first-child {
+  width: 100px;
+  font-weight: bold;
+  vertical-align: top;
+}
+tr {
+  border: 2px solid #ced4da;
+}
+.avt-banner {
+  position: absolute;
+  display: inline-block;
+  bottom: -20px;
+  right: 42%;
+}
+.avt-default {
+  height: 260px;
+  width: 240px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+}
+.list {
+  position: relative;
+}
+.list1 {
+  position: relative;
+}
+.job-node::before {
+  content: "‧";
+  color: #0abde3;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 60px;
+  position: absolute;
+  left: -25px;
+  top: -37px;
+}
+.icon-rounding{
+  width: 50px;
+  height: 50px;
+  color:#0abde3;
+  border: 2px solid #0abde3;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+  margin-bottom: 0.5rem;
+}
